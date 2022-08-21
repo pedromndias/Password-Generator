@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Password Generator</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="main">
+            <h1>Generate a random <span class="green">password</span></h1>
+            <p id="banner">Never use an insecure password again</p>
+
+            <form onsubmit="return generatePass()" id="form">
+                <label for="input">How many characters?</label>
+                <input type="text" id="input">(10 by default, max 19)
+            </form>
+            <button id="generate-btn">Generate password</button>
+            <div class="password-section">
+                <div class="rectangle" id="rectangle1"></div>
+                <div class="rectangle" id="rectangle2"></div>
+                <div class="rectangle" id="rectangle3"></div>
+                <div class="rectangle" id="rectangle4"></div>
+            </div>
+            <p id="final-message"></p>
+            <script src="index.js"></script>
+        </div>
+    </body>
+</html>

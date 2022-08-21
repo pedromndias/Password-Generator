@@ -1,0 +1,110 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #1F2937;
+}
+
+.main {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+
+    letter-spacing: -0.025em;
+    margin-bottom: 0;
+
+    color: #FFFFFF;
+    background: #204375;
+    width:500px;
+}
+
+.green {
+    color: #10B981
+}
+
+p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+
+    color: #D5D4D8;
+    margin-top: 20px;
+    text-align: center;
+}
+
+button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 17px 9px 15px;
+    margin-top: 30px;
+    width: 223px;
+    height: 42px;
+    background: #10B981;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.password-section {
+    padding: 3px;
+    margin-top: 30px;
+    display: grid;
+    grid-template: 1fr 1fr /1fr 1fr;
+    gap: 5px;
+}
+
+#rectangle1,
+#rectangle2,
+#rectangle3,
+#rectangle4 {
+    width: 200px;
+    height: 40px;
+    background: #273549;
+    border-radius: 6px;
+}
+
+
+.rectangle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    color: #55F991;
+    cursor: pointer;
+}
+
+#form {
+    color: #D5D4D8;
+}
+
+#input {
+    width: 20px;
+}
+
+#banner {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #464646;
+}
